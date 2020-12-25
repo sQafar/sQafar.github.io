@@ -1,0 +1,619 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* основной шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+*,
+*:hover,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+
+/* header */
+header {
+    width: 100%;
+    background-color: #FFF;
+}
+
+/* элементы сайта */
+.nav_btn_link {
+    margin: 20px 50px;
+}
+
+/* логотип сайта */
+.navbar_brand {
+    height: 50px;
+    width:190px;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+/* логотип сайта при наведении */
+.navbar_brand:hover {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+
+/* кнопки меню */
+.navbar_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+/* кнопки меню при наведении*/
+.navbar_btn:hover {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    color:  #008DD2;
+}
+
+/* кнопки регистрации */
+.nav_registr_link {
+    outline: none !important; 
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #008DD2;
+}
+
+/* кнопки регистрации при наведении */
+.nav_registr_link:hover {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000000;
+}
+
+/* свойства блока кнопок регистрации */
+.navbar_registr_link {
+    margin: 30px 50px;
+    padding: 0;
+}
+
+/* main-content-text главный заголовок */
+.main-content-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 63px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #33A0DA;
+}
+
+/* content-text описание */
+.content-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    font-variant: small-caps;
+    color: #000000;    
+}
+
+/* main-btn главная кнопка */
+.main-btn {
+    background: #539EFF;
+    -webkit-box-shadow: 0px 28px 35px -10px rgba(83, 158, 255, 0.5);
+    box-shadow: 0px 28px 35px -10px rgba(83, 158, 255, 0.5);
+    border-radius: 20px;
+    outline: none !important;
+    border: none;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    padding: 20px 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/*главная кнопка при наведении */
+.main-btn:hover {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000000;
+}
+
+/* main-content-block блок с текстом */
+.main-content-block {
+    padding: 20px 70px;
+    margin-top: 20px;
+}
+
+/* дополнительные свойства описаний */
+.text-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-2 {
+    margin-bottom: 40px;
+}
+.text-3 {
+    margin-top: 10px;
+}
+
+/* дополнительный текст */
+.ins-text-block {
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    font-variant: small-caps;    
+    color: #000000;
+}
+
+/* content-image-block блок с изображением */
+.main-content-image {
+    background-image: url(../img/Group\ 50.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 45%;
+    height: 650px;
+    width: 670px;
+    margin-top: -40px;
+
+}
+
+/*section-content-text заголовок во втором блоке */
+.section-content-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+ /* slider*/
+.section-content-row-2 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.section-content-block-2 {
+    outline: none !important;
+    padding: 20px;
+}
+.section-content-block {
+    margin-top: 85px;
+}
+
+/* подзаголовок слайдера */
+.section-content-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* section-content-row-3 */
+.section-content-row-3 {
+    margin-top: 50px;
+}
+
+/* убрал границы у всех блоков */
+* {
+    outline: none;
+}
+
+/* текст в слайдере */
+.slider-text {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 50px;
+}
+
+/* логотипы в слайдере */
+.slide-img-1 {
+    background-image: url(../img/Group15.png), url(../img/ic.png);
+    height: 200px;
+    width: 250px;
+    background-size: 60%, 10%;
+    background-position: center, 10px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.slide-img-2 {
+    background-image: url(../img/Group13.png), url(../img/ic.png);
+    height: 200px;
+    width: 250px;
+    background-size: 60%, 10%;
+    background-position: center, 10px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.slide-img-3 {
+    background-image: url(../img/Group20.png), url(../img/ic.png);
+    height: 200px;
+    width: 250px;
+    background-size: 60%, 10%;
+    background-position: center, 10px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.slide-img-4 {
+    background-image: url(../img/Group7.png), url(../img/ic.png);
+    height: 200px;
+    width: 250px;
+    background-size: 60%, 10%;
+    background-position: center, 10px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+/* ссылка в слайдере */ 
+.slider-link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* ссылка в слайдере */
+.slide-link-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/* ссылка при наведении */
+.slider-link:hover {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #008DD2;
+} 
+
+/* линия рядом с ссылкой */
+.extra-line {
+    height: 2px;
+    width: 30px;
+    background-color: #008DD2;
+    margin-left: 38%;
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+}
+
+.section-content-text-4 {
+    margin-top: 150px;
+}
+
+/* основной текст в контейнере с формой */
+.section-text-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    color: #000000;
+}
+
+/*section-content-text-4 ,блок в контейнере с формой */
+.content-mini-text-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+
+/* анимация печатная машинка */
+.container-title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .secondary__title{
+    position: relative;  
+  }
+  .secondary__title::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-right: 2px solid #539EFF; 
+    -webkit-animation: writte 1s infinite; 
+            animation: writte 1s infinite;
+  }
+  @-webkit-keyframes writte{
+    0%, 50%{
+      opacity: 0;
+    }
+    75%, 100%{
+      opacity: 1;
+    }
+  }
+  @keyframes writte{
+    0%, 50%{
+      opacity: 0;
+    }
+    75%, 100%{
+      opacity: 1;
+    }
+  }
+  
+  .typewritter-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+.content {
+    margin-top: 40px;
+}
+.directions-block {
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    border: 1px solid green;
+}
+
+.slide-btn {
+   transform: translateY(358px);
+}
+
+.slider-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-content-row-4 {
+    position: relative;
+    padding: 0px 60px;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%; 
+    margin: -10px 0 0 0;
+    z-index: 2;
+    font-size: 0; 
+    width: 30px; 
+    height: 30px; 
+}
+
+.form-block {
+    width: 400px;
+    padding: 15px;
+    border-radius: 11px;
+    margin-right: 20px;
+    border: 1px solid #c5c5c5;
+    margin-right: 100px;
+}
+
+.content-extra-text-4 {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image-3d{
+    width: 500px;
+    height: 500px;
+}
+
+
+  .section  {
+    perspective: 900px;
+  }
+  .container {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    height: 0px;
+    transition: 1s;
+    transform: rotateX(55deg) rotateZ(-45deg) rotateY(0deg);
+    transform-style: preserve-3d;
+    margin-top: -50px;
+
+  }
+  .container-origin {
+    transform: rotate(0);
+  }
+  div.card img {
+    max-width: 400px;
+
+  }
+  .card {
+    width: 500px;
+    margin-left: -300px;
+    transition: 0.3s;
+  }
+  .card:hover {
+    cursor: pointer;
+    transform: translateZ(40px);
+  }
+  .form-btn {
+      width: 100%;
+      background-color: #00457C;
+      color: #FFF;
+      font-weight: 500;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+.bcg-form-image {
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 500px;
+    margin-left: -150px;
+    margin-top: -150px
+}
+
+.bcg-form-image-2 {
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.form-name {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* checkbox */
+.form-check {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/*ссылки в форме */
+.form-link {
+    text-decoration: none;
+    color: #2878B7;
+}
+
+/* ссылки в форме при наведении */
+.form-link:hover {
+    transition: all 0.2s;
+    color: #5A55FE;
+}
+
+.section-5 {
+    margin-top: 590px;
+}
+
+/* стилизация блока с логотипом */
+.text-block-6 {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+ 
+/* кнопка в форме */
+.form-btn-2 {
+    background-color: rgba(0, 141, 210, 88%);
+    padding: 20px 35px;
+    margin-left: 50px;
+    color: #FFF;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+/* form-block-6 */
+.form-block-6 {
+    margin-top: 60px;
+    /*transform: translate(-100px, 100px)*/
+}
+
+/* форма дл почты*/
+.form-email {
+    padding: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    color: #FFF;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* изображение в форме */
+.noteImg {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+}
+
+.accent-text-6 {
+    margin-top: -350px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.polygon-block {
+    margin-top: -380px;
+    margin-left: 390px;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+}
+.polygon-block-2 {
+    margin-top: -500px;
+    margin-left: -250px;
+    position: absolute;
+    z-index: -1;
+}
