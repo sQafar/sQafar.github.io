@@ -54,9 +54,9 @@ header {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-    opacity: 0.8;
+    opacity: 0.7;
 }
-.navbar_brand:focus {
+.navbar_brand:active {
     opacity: 1;
 }
 
@@ -72,8 +72,7 @@ header {
     color: #000000;
     text-decoration: none;
     padding-right: 10px;
-    cursor: pointer;
-
+    margin-top: 15px;
 }
 
 /* кнопки меню при наведении*/
@@ -83,7 +82,9 @@ header {
     transition: all 0.2s;
     color:  #008DD2;
 }
-
+.navbar_btn:active {
+    color: #000000;
+}
 /* кнопки регистрации */
 .nav_registr_link {
     outline: none !important; 
@@ -107,7 +108,9 @@ header {
     transition: all 0.2s;
     color: #000000;
 }
-
+.nav_registr_link:active {
+    color:#008DD2;
+}
 /* свойства блока кнопок регистрации */
 .navbar_registr_link {
     margin: 30px 50px;
@@ -165,8 +168,9 @@ header {
     transition: all 0.2s;
     color: #000000;
 }
-
-.main-btn:focus {
+.main-btn:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
     color: #FFF;
 }
 
