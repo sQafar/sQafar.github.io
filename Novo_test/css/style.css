@@ -46,6 +46,7 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 /* логотип сайта при наведении */
@@ -71,6 +72,7 @@ header {
     color: #000000;
     text-decoration: none;
     padding-right: 10px;
+    cursor: pointer;
 
 }
 
