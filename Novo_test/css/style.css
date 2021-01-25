@@ -55,6 +55,9 @@ header {
     transition: all 0.2s;
     opacity: 0.8;
 }
+.navbar_brand:focus {
+    opacity: 1;
+}
 
 /* кнопки меню */
 .navbar_btn {
@@ -159,6 +162,10 @@ header {
     -o-transition: all 0.2s;
     transition: all 0.2s;
     color: #000000;
+}
+
+.main-btn:focus {
+    color: #FFF;
 }
 
 /* main-content-block блок с текстом */
