@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap');
+body {
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+* {
+    outline: transparent !important;
+}
+.wrapper {
+    height: 100vh;
+    background-color: transparent;
+    width: 100%;
+    background-image: url(../images/back.png);
+}
+header {
+    width: 95%;
+    margin: auto;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-top: 15px;
+}
+.header__menu-list {
+    margin: auto;
+}
+.header__menu-link {
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.header__menu-link:hover {
+    transition: all 0.2s;
+    color: #9400FF;
+}
+.header__menu-btn {
+    background: #9400FF;
+    border-radius: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 6px 20px;
+}
+.header__menu-btn:hover {
+    transition: all 0.2s;
+    background-color: transparent;
+    color: #9400FF;
+}
+
+.content__wrapper {
+    width: 85%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content__btn {
+    background: #9400FF;
+    border-radius: 200px;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 13px 35px;
+}
+.content__btn:hover {
+
+    color: #000000;
+}
+.content__small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.content__price-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.content__price-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.section__wrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section__price-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+}
+.price-list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+}
+.icons-box {
+    width: 65%;
+    height: 700px;
+    margin: auto;
+}
+.section__icon-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.icons-panel {
+    height: 140px;
+    width: 65%;
+    margin: auto;
+}
+.section__wrap {
+    width: 80%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+.content__link-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+.content-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section__mail-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.price__mail-list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #EBEBEB;
+}
+.footer__wrapper {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/Footer.png);
+}
+.footer__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 52px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer__list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.avtor-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #9400FF;
+}
+.footer_avtor {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer__end {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
